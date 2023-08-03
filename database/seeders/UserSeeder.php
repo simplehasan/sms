@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 1,
                 'name' => 'Admin Pendidikan Formal',
-                'nip' => '0000000ZY',
+                'nip' => '0000001ZY',
                 'email' => 'pendidikan@formal.com',
                 'role' => 'admin',
                 'remember_token' => Str::random(30),
@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
             [
                 'id' => 2,
                 'name' => 'Awardee Student',
-                'nip' => '0000001ZY',
+                'nip' => '0000000ZY',
                 'email' => 'awardee@student.com',
                 'role' => 'student',
                 'remember_token' => Str::random(30),

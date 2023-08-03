@@ -12,6 +12,7 @@ use Database\Seeders\TestSeeder;
 use Database\Seeders\ReportSeeder;
 use Database\Seeders\AcademicSeeder;
 use Database\Seeders\StudentTestSeeder;
+use Database\Seeders\SelectionSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -36,6 +37,7 @@ class DatabaseSeeder extends Seeder
             ReportSeeder::class,
             AcademicSeeder::class,
             StudentTestSeeder::class,
+            SelectionSeeder::class,
         ]);
     }
 }

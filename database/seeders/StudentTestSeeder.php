@@ -25,6 +25,7 @@ class StudentTestSeeder extends Seeder
                 'CertNumber' => '123-ID-1230123',
                 'Expired' => false,
                 'FileName' => 'IEAC-2023-04-05-0000000ZY-13-45-13',
+                'Approved' => true,
             ],
             [
                 'id' => 2,
@@ -36,6 +37,7 @@ class StudentTestSeeder extends Seeder
                 'CertNumber' => 'I9230DD12QA',
                 'Expired' => false,
                 'FileName' => 'IBT-2023-04-05-0000000ZY-13-47-54',
+                'Approved' => false,
             ],
         ];
 

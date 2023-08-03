@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('CertNumber');
             $table->boolean('Expired')->nullable();
             $table->string('FileName');
+            $table->boolean('Approved')->default(false);
             $table->timestamps();
         });
     }

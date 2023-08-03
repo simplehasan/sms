@@ -126,6 +126,11 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+
+    'admin_password' => env('ADMIN_PASSWORD'),
+    'student_password' => env('STUDENT_PASSWORD'),
+    'viewer_password' => env('VIEWER_PASSWORD'),
+
     /*
     |--------------------------------------------------------------------------
     | Maintenance Mode Driver

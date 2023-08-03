@@ -9,6 +9,7 @@ use Database\Seeders\UserSeeder;
 use Database\Seeders\AreaSeeder;
 use Database\Seeders\CostSeeder;
 use Database\Seeders\TestSeeder;
+use Database\Seeders\ReportSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -30,6 +31,7 @@ class DatabaseSeeder extends Seeder
             AreaSeeder::class,
             CostSeeder::class,
             TestSeeder::class,
+            ReportSeeder::class,
         ]);
     }
 }

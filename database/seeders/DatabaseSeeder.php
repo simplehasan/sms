@@ -13,6 +13,8 @@ use Database\Seeders\ReportSeeder;
 use Database\Seeders\AcademicSeeder;
 use Database\Seeders\StudentTestSeeder;
 use Database\Seeders\SelectionSeeder;
+use Database\Seeders\ReimburseSeeder;
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -38,6 +40,7 @@ class DatabaseSeeder extends Seeder
             AcademicSeeder::class,
             StudentTestSeeder::class,
             SelectionSeeder::class,
+            ReimburseSeeder::class,
         ]);
     }
 }

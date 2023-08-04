@@ -22,10 +22,12 @@ class Student extends Model
         'JurusanTerakhir',
         'UniversitasTerakhir',
         'NilaiIPK',
+        'Program',
         'OnMissionStudy',
         'BeasiswaLain',
         'NamaBeasiswa',
         'StatusTalent',
+        'PeriodeSeleksi',
         'UpdatedBy'
     ];
 }
